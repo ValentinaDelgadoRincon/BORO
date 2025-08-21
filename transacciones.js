@@ -1,3 +1,7 @@
+//Simular la entrada de nuevo inventario:
+// a. Insertar un documento en `inventario` 
+// b. Aumentar el stock del producto correspondienteTodo dentro de una transacción.
+
 const session = db.getMongo().startSession();
 const dbSession = session.getDatabase("Boro");
 session.startTransaction();
