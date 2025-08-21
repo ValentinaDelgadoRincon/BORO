@@ -1,0 +1,20 @@
+//Insertar un nuevo producto llamado "Chocolatina de borojó", categoría "Snack", con precio 4000, stock 35, y tags ["dulce", "energía"].
+
+db.productos.insertOne({
+    _id:11,
+    nombre:"Chocolatina",
+    categoria:"Snack",
+    precio:4000,
+    stock:35,
+    tags:["dulce","energía"]
+    })
+
+//Insertar un nuevo cliente que se llama "Mario Mendoza", con correo "mario@email.com", sin compras, y preferencias "energético" y "natural".
+
+db.clientes.insertOne({
+    _id:11,
+    nombre:"Mario Mendoza",
+    email:"mario@gamil.com",
+    compras:[],
+    preferencias:["energético","natural"]
+    })
