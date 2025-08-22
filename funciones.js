@@ -1,3 +1,5 @@
+//Definir una función verificarStock(productoId, cantidadDeseada) que retorne si hay suficiente stock.
+
 db.system.js.insertOne({
     _id:"verificarstock",
     value: new Code("function(stock,cantidadDeseada){return stock >= cantidadDeseada}")
