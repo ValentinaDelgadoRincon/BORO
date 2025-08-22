@@ -22,7 +22,6 @@ const calcularDescuento = new Function('return ' + f1.value.code)();
 
 calcularDescuento(100, 15);
 
-
 // 2. Definir una función clienteActivo(idCliente) que devuelva true si el cliente tiene más de 3 compras registradas.
 
 db.system.js.insertOne({
