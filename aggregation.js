@@ -39,3 +39,23 @@ db.ventas.aggregate([
     total_ventas:{$sum:"$productos.cantidad"}
   }}
 ])
+
+
+// 4. Calcular el promedio de precios por categoría de producto.
+db.productos.aggregate([
+  {
+    $group:{
+      _id: "$categoria",
+      promedioPrecios:{$avg:"$precio"}
+    }
+  }
+])
+
+
+// 5. Mostrar los 3 productos con mayor stock (orden descendente con $sort y $limit).
+db.productos.aggregate([
+  {
+    $sort:{stock:-1}},
+    {$limit:3
+  }
+])
