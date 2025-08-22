@@ -9,9 +9,7 @@ const f3 = db.system.js.findOne({ _id: "verificarstock" });
 const verificarstock = new Function("return " + f3.value.code)();
 const borojo = db.productos.findOne({ nombre: "Aceite de borojó" });
 
-<<<<<<< HEAD
 verificarstock(borojo.stock,20);
-=======
 verificarstock(borojo.stock, 20);
 
 
@@ -38,4 +36,3 @@ const clienteActivo = new Function("return " + f2.value.code)();
 const cliente=db.clientes.findOne({nombre:"Diana Suárez"});
 
 clienteActivo(cliente.clienteId); 
->>>>>>> funciones
