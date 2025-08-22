@@ -11,6 +11,7 @@ const borojo = db.productos.findOne({ nombre: "Aceite de borojó" });
 
 verificarstock(borojo.stock, 20);
 
+
 // 1. Definir una función calcularDescuento(precio, porcentaje) que devuelva el precio con descuento aplicado.
 
 db.system.js.insertOne({
