@@ -115,17 +115,17 @@ A continuación se detallan los ejercicios trabajados, organizados según el tem
 
 - **Tema 4** → Se eliminó un cliente y los productos con stock menos de 5. 
 
--**Tema 5** → Se buscó el producto con relación a "Boro", se encontraron productos con relación a "con", y clientes que contengan la "z" en su nombre.
+- **Tema 5** → Se buscó el producto con relación a "Boro", se encontraron productos con relación a "con", y clientes que contengan la "z" en su nombre.
 
--**Tema 6** → Se buscaron clientes con preferencias en "natural", encontrar productos con tags natural y orgánico, y listar productos con más de un tag.
+- **Tema 6** → Se buscaron clientes con preferencias en "natural", encontrar productos con tags natural y orgánico, y listar productos con más de un tag.
 
--**Tema 7** → Se mostró un listado de productos más vendidos, se agruparon los clientes por compras, mostrar el total de ventas por un mes, se calculó el promedio de precios por producto y mostrar los 3 productos con mayor stock.
+- **Tema 7** → Se mostró un listado de productos más vendidos, se agruparon los clientes por compras, mostrar el total de ventas por un mes, se calculó el promedio de precios por producto y mostrar los 3 productos con mayor stock.
 
--**Tema 8** → Se definió una función para calcular el descuento, otra para verificar si un cliente está activo, y otra para verificar el stock de los productos.
+- **Tema 8** → Se definió una función para calcular el descuento, otra para verificar si un cliente está activo, y otra para verificar el stock de los productos.
 
--**Tema 9** → Se simuló una venta en la que de descontó el stock de un producto y se insertó a la colección, se simuló la entrada de un inventario en el que seinsertó un documento y se aumentó el stock de un producto, y se realizó una operación de devolución en la que se aumentó el stock y se eliminó la venta.
+- **Tema 9** → Se simuló una venta en la que de descontó el stock de un producto y se insertó a la colección, se simuló la entrada de un inventario en el que seinsertó un documento y se aumentó el stock de un producto, y se realizó una operación de devolución en la que se aumentó el stock y se eliminó la venta.
 
--**Tema 10** → Se creó un índice para mejorar busquedas por nombre, otro para validaciones rapidas de duplicados, un índice compuesto para facilitar busquedas filtrando categorias y precios, y una consulta explain para mostrar si el índice esta siendo utilizado.
+- **Tema 10** → Se creó un índice para mejorar busquedas por nombre, otro para validaciones rapidas de duplicados, un índice compuesto para facilitar busquedas filtrando categorias y precios, y una consulta explain para mostrar si el índice esta siendo utilizado.
 
 ---
 
