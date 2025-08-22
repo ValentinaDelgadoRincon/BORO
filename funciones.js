@@ -26,10 +26,11 @@ calcularDescuento(100, 15);
 
 db.system.js.insertOne({
     _id: "clienteActivo",
-    value: new Code ("function(clienteId) {return db.compras.countDocuments({ clienteId: clienteId })3;}")
+    value: new Code ("function(clienteId) {return db.compras.countDocuments({ clienteId: clienteId }) > 3;}")
 });
 
 const f2 = db.system.js.findOne({ _id: "clienteActivo" });
 const clienteActivo = new Function("return " + f2.value.code)();
+const cliente=db.clientes.findOne({nombre:"Diana Suárez"});
 
-clienteActivo(clienteId); 
+clienteActivo(cliente.clienteId); 
